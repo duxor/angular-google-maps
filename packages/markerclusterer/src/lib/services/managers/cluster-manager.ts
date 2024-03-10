@@ -1,5 +1,5 @@
-import { AgmMarker, GoogleMapsAPIWrapper, MarkerManager } from '@agm/core';
 import { Injectable, NgZone } from '@angular/core';
+import { AgmMarker, GoogleMapsAPIWrapper, MarkerManager } from '@duxor/agm-core';
 import { MarkerClustererOptions } from '@google/markerclustererplus';
 import MarkerClusterer from '@google/markerclustererplus';
 import { Observable, Subscriber } from 'rxjs';

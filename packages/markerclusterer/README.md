@@ -7,12 +7,12 @@ this package levereges the [@google/markerclustererplus][markerclustererplus] to
 
 ## Installation
 
-@agm/markerclusterer has a peer depedency on [markerclustererplus][markerclustererplus]
+@duxor/agm-markerclusterer has a peer depedency on [markerclustererplus][markerclustererplus]
 
 ```shell
-npm install @google/markerclustererplus @agm/markerclusterer --save
+npm install @google/markerclustererplus @duxor/agm-markerclusterer --save
 # or
-yarn add @google/markerclustererplus @agm/markerclusterer
+yarn add @google/markerclustererplus @duxor/agm-markerclusterer
 ```
 
 ## Usage
@@ -30,8 +30,8 @@ yarn add @google/markerclustererplus @agm/markerclusterer
     import { AppComponent } from './app.component';
 
     // add these imports
-    import { AgmCoreModule } from '@agm/core';
-    import { AgmMarkerClustererModule } from '@agm/markerclusterer';
+    import { AgmCoreModule } from '@duxor/agm-core';
+    import { AgmMarkerClustererModule } from '@duxor/agm-markerclusterer';
 
     @NgModule({
       declarations: [

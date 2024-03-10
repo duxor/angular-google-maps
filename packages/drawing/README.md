@@ -7,9 +7,9 @@ this package adds drawing support to [AGM][agm].
 ## Installation
 
 ```sh
-npm install @agm/drawing
+npm install @duxor/agm-drawing
 # or
-yarn add @agm/drawing
+yarn add @duxor/agm-drawing
 ```
 
 ## Usage
@@ -21,8 +21,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component'
 // add these imports
-import { AgmCoreModule } from '@agm/core';
-import { AgmDrawingModule } from '@agm/drawing'
+import { AgmCoreModule } from '@duxor/agm-core';
+import { AgmDrawingModule } from '@duxor/agm-drawing'
 @NgModule({
   declarations: [
     AppComponent
