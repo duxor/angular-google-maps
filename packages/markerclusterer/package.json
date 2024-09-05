@@ -1,6 +1,6 @@
 {
   "name": "@duxor/agm-markerclusterer",
-  "version": "17.0.3",
+  "version": "18.0.0",
   "description": "Angular Google Maps (AGM) extension for markerclusterer support",
   "author": "Jens Fahnenbruck <jigfox@me.com>",
   "license": "MIT",
@@ -20,16 +20,16 @@
     "agm"
   ],
   "peerDependencies": {
-    "@duxor/agm-core": "^17.0.0",
-    "@angular/common": ">=9.1.0 <18.0.0",
-    "@angular/core": ">=9.1.0 <18.0.0",
+    "@duxor/agm-core": "^18.0.0",
+    "@angular/common": ">=9.1.0 <19.0.0",
+    "@angular/core": ">=9.1.0 <19.0.0",
     "@google/markerclustererplus": "^5.0.4"
   },
   "dependencies": {
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "@duxor/agm-core": "^17.0.0",
+    "@duxor/agm-core": "^18.0.0",
     "@google/markerclustererplus": "^5.0.4",
     "@types/googlemaps": "^3.39.8",
     "@types/jest": "^26.0.3"
