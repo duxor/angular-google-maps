@@ -1,6 +1,6 @@
 {
   "name": "@duxor/agm-core",
-  "version": "17.0.1",
+  "version": "18.0.0",
   "description": "Angular components for Google Maps",
   "author": "Sebastian Holstein <info@sebastian-holstein.de>",
   "license": "MIT",
@@ -21,8 +21,8 @@
     "gmaps"
   ],
   "peerDependencies": {
-    "@angular/common": ">=9.1.0 <18.0.0",
-    "@angular/core": ">=9.1.0 <18.0.0"
+    "@angular/common": ">=9.1.0 <19.0.0",
+    "@angular/core": ">=9.1.0 <19.0.0"
   },
   "dependencies": {
     "tslib": "^2.0.0"
